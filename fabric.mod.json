@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "iwohovisuals",
+  "version": "${version}",
+  "name": "Iwoho Visuals",
+  "description": "Glass visuals: HUD, crosshair, zoom, themes.",
+  "authors": ["Iwoho"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.iwoho.visuals.IwohoVisuals"] },
+  "mixins": ["iwohovisuals.mixins.json"],
+  "depends": { "fabricloader": ">=0.14.21", "minecraft": "~1.20.1", "java": ">=17", "fabric-api": "*" }
+}
